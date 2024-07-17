@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web_Teste1</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/cfe9d15e3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index_style.css">
+
+    <title>Olho Ciência</title>
+
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <div class="logo">
+                <div>
+                    <h1>OLHO<span>CIÊNCIA</span></h1>
+                </div>
+            </div>
+
+            <nav>
+                <li><span><a class="biologia" href="biologia.html">Biologia</a></span></li>
+                <li><span><a class="fisica" href="fisicaindex.html">Física</a></span></li>
+                <li><span><a class="quimica" href="quimicaindex.html">Química</a></span></li>
+            </nav>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="fa-solid fa-eye" style="margin-right: 0.5vh;"></i>
+            <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">OLHO CIÊNCIA</span>
+            </div>
+            <div class="menu_logo">
+            <i class="bx bx-menu" id='btn' style="font-size: 3rem; width: 3rem; height: 3rem;"></i>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html">
+                     <i class='bx bx-home-alt-2'></i>
+                     <span class="nav-item">Home</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <div class="section-header">
+          <h1 class="title">Desvendando os Mistérios das Novas Formas de Oxigênio: Uma Jornada Científica Extraordinária</h1>
+        </div>
+    
+        <div class="section-content">
+          <h2 class="subtitle">Mergulhando no Microcosmo</h2>
+    
+          <p class="paragraph">A descoberta de novas formas de oxigênio, os isótopos oxigênio-27 e oxigênio-28, por cientistas japoneses representa um marco monumental na história da ciência. Essa conquista, publicada na revista "Nature", desafia as noções pré-estabelecidas sobre a formação do oxigênio, elemento fundamental para a vida na Terra.</p>
+    
+          <p class="paragraph">O oxigênio-28, a estrela dessa jornada científica, ostenta o maior número de nêutrons já observado em um isótopo de oxigênio. Essa peculiaridade intriga os cientistas e levanta questionamentos sobre sua formação. Acredita-se que estrelas massivas, em seus momentos finais, podem ter sido o palco dessa criação extraordinária, mas pesquisas mais aprofundadas são necessárias para desvendar esse enigma.</p>
+        </div>
+    
+        <div class="section-content">
+          <h2 class="subtitle">Tesouros Celestes Escondidos em Meteoritos</h2>
+    
+          <p class="paragraph">As novas formas de oxigênio foram encontradas em amostras de meteoritos, vagantes espaciais que guardam segredos do passado. Essas preciosidades cósmicas podem ter testemunhado a formação do Sistema Solar e do próprio universo, oferecendo pistas valiosas sobre a história da nossa galáxia.</p>
+    
+          <p class="paragraph">A análise meticulosa dos meteoritos revelou a presença dos isótopos oxigênio-27 e oxigênio-28, fornecendo indícios cruciais sobre as condições nucleares presentes durante a formação do Sistema Solar. Essa descoberta abre um leque de possibilidades para pesquisas futuras sobre a origem dos elementos e a composição do universo primitivo.</p>
+        </div>
+    
+        <div class="section-content">
+          <h2 class="subtitle">Implicações Profundas para a Ciência e a Humanidade</h2>
+    
+          <p class="paragraph">A descoberta das novas formas de oxigênio abre um leque de possibilidades para pesquisas futuras em diversos campos científicos. A compreensão da formação do oxigênio-28 pode nos levar a um conhecimento mais profundo sobre a nucleossíntese, o processo de criação de elementos no universo.</p>
+    
+          <p class="paragraph">Além disso, essa jornada científica pode ter implicações na astrofísica, na geologia e até mesmo na medicina. O estudo dos isótopos de oxigênio pode contribuir para a compreensão da formação de estrelas e planetas, da história da Terra e da origem da vida.</p>
+    
+          <p class="paragraph">Novas aplicações tecnológicas também podem surgir a partir dessa descoberta. O oxigênio-27 e o oxigênio-28 podem ter propriedades únicas que os tornam úteis em áreas como a medicina nuclear, a produção de energia e a exploração espacial.</p>
+        </div>
+    
+        <div class="section-content">
+          <h2 class="subtitle">Compartilhe sua Fascinação e Perspectiva</h2>
+    
+          <p class="paragraph">O que você acha dessa descoberta revolucionária? Deixe seu comentário abaixo e compartilhe sua perspectiva sobre o futuro da pesquisa espacial e a busca por novos conhecimentos.</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+<footer>
+<div class="footer-container">
+  <div class="footer-brand">
+    <h1>Olho Ciência</h1>
+  </div>
+  <div class="footer-social">
+    <a>Siga o Colégio Dom Bosco</a>
+    <ul>
+      <li><a href="https://www.facebook.com/colegiodomboscomanaus/?locale=pt_BR"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="https://x.com/domboscomanaus?lang=en"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.instagram.com/domboscomanaus_oficial/"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+  </div>
+</div>
+<div class="copyright">
+  <p>&copy; Copyright 2024. All Rights Reserved.</p>
+</div>
+</footer>
+
+
+</body>
+
+
+<script>
+
+let btn = document.querySelector('#btn')
+let sidebar = document.querySelector('.sidebar')
+
+btn.onclick = function () {
+  sidebar.classList.toggle('active')
+};
+
+window.onload = function() {
+document.querySelector(".hero-image h2").style.opacity = 1;
+document.querySelector(".hero-image").style.opacity = 1;
+}
+
+</script>
+
+<!-- jquey -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- awasomefont -->
+
+<script src="https://kit.fontawesome.com/cfe9d15e3a.js" crossorigin="anonymous"></script>
+
+<!-- slick -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- js -->
+
+<script src="js/script.js"></script>
+
+
+
+</html>
+
